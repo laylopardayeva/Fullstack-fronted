@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+FullStack CRUD Application
+Description
+The FullStack CRUD Application is an educational tool designed for junior Java developers to learn the fundamentals of creating, reading, updating, and deleting (CRUD) operations in a full-stack environment. This application provides a practical demonstration of handling user information such as names, surnames, and emails through a user-friendly interface with view, edit, and delete functionalities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Screenshots
+Below are screenshots demonstrating the API responses and how they appear when accessed through a web browser:
 
-## Available Scripts
+Screenshot 2024-07-27 at 12 51 53 AM
+Technologies Used
+Backend
+Spring Framework: Core framework used for the backend.
+Java: Programming language.
+Maven: Dependency management.
+Spring Boot Starter Data JPA: To facilitate integration with JPA for data handling.
+Spring Boot Starter Web: For creating web applications.
+MySQL: Database to store user data.
+Postman: Tool used for API testing.
+Frontend
+JavaScript: Programming language.
+React: Library for building user interfaces.
+HTML: Markup language for creating web pages.
+CSS: Style sheet language used for describing the presentation of the document.
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-In the project directory, you can run:
+Prerequisites
+What you need to install the software:
 
-### `npm start`
+Java JDK 11 or later
+Maven
+Node.js and npm
+MySQL Server
+Postman (optional, for testing the API)
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/fullstack-crud-application.git
+cd fullstack-crud-application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Backend Setup: Navigate to the backend directory:
+cd backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+mvn install mvn spring-boot:run
 
-### `npm test`
+Frontend Setup: Open a new terminal and navigate to the frontend directory:
+cd frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install npm start
 
-### `npm run build`
+Accessing the Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	Backend API: Visit http://localhost:8080/users to access the backend directly.
+•	Full Application: The frontend will be available at http://localhost:3000 after running npm start.
+Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• GitHub: laylopardayeva • Email: laylopardayeva2005@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE.md file for details.
